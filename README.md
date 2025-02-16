@@ -17,7 +17,3 @@
 |        | `/auth/login`        | 사번/비밀번호 입력 후 로그인 | - JWT 토큰 저장 (LocalStorage 또는 HttpOnly Cookie) <br /> - 보안 강화를 위해 CORS 및 CSRF 설정    |
 |        | `/auth/login/find`   | 비밀번호 재설정                | - 회원정보 양식에 맞춰 유효성검사 처리                  |            
 |  관리자 | `/admin/add`     | 사용자 정보 입력 및 등록 | - 비밀번호 해시화 (BCrypt 적용)   <br /> - 중복 사번 확인                     |
-
-
-
-
